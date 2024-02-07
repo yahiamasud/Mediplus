@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer p-10 text-white bg-blue-700 text-base-content">
+        <div className='w-full bg-sky-600'>
+            <footer className=" footer container mx-auto p-10 text-white">
                 <nav>
                     <h6 className="footer-title">About Us</h6>
                     <h3>Lorem ipsum dolor sit am consectetur<br></br> adipisicing elit do eiusmod tempor incididunt<br></br> ut labore dolore magna.</h3>
